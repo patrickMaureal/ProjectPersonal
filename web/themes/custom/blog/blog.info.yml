@@ -1,0 +1,9 @@
+name: 'Custom E-Blogs Theme'
+type: theme
+description: 'A custom e-blog theme with unique product display layout.'
+core_version_requirement: ^11
+base theme: false
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
