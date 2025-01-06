@@ -1,0 +1,23 @@
+uuid: a43844e5-aa2a-4e0e-935c-c9b09aa30ac8
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - blog
+_core:
+  default_config_hash: _nZjxxdypO6xrOAJkCYD81v0L7wh2zbCAVO7_C-UKIc
+id: blog_search_form_narrow
+theme: blog
+region: header
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }
