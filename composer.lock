@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75a4e66f9cb74bf055598cb416ba5334",
+    "content-hash": "fd2a7d1af40ac6a980f68365cb46d1d9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1514,6 +1514,66 @@
                 "source": "https://github.com/drupal/core-recommended/tree/11.1.1"
             },
             "time": "2025-01-06T22:41:17+00:00"
+        },
+        {
+            "name": "drupal/miniorange_2fa",
+            "version": "5.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/miniorange_2fa.git",
+                "reference": "5.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/miniorange_2fa-5.1.9.zip",
+                "reference": "5.1.9",
+                "shasum": "f2f9cbc8df3dd3830691ba0bd0cc64ea6607c6ca"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "5.1.9",
+                    "datestamp": "1732798157",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "abhay19",
+                    "homepage": "https://www.drupal.org/user/3549350"
+                },
+                {
+                    "name": "arsh244",
+                    "homepage": "https://www.drupal.org/user/3619504"
+                },
+                {
+                    "name": "gauravsood91",
+                    "homepage": "https://www.drupal.org/user/3288491"
+                },
+                {
+                    "name": "shrishail hiremath",
+                    "homepage": "https://www.drupal.org/user/3669372"
+                },
+                {
+                    "name": "sudhanshu0542",
+                    "homepage": "https://www.drupal.org/user/3723916"
+                }
+            ],
+            "description": "Adds an additional layer of authentication, securing user account.",
+            "homepage": "https://www.drupal.org/project/miniorange_2fa",
+            "support": {
+                "source": "https://git.drupalcode.org/project/miniorange_2fa"
+            }
         },
         {
             "name": "drush/drush",
