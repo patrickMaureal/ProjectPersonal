@@ -1,0 +1,18 @@
+{% if page.header or page.navigation %}
+  <header>
+		<nav class="navbar">
+		{{ page.header }}
+		<div class="menu-toggle" id="menu-toggle">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
+
+		<div class="nav-primary-menu">
+			{% if page.navigation %}
+				{{ page.navigation }}
+			{% endif %}
+		</div>
+		</nav>
+  </header>
+{% endif %}

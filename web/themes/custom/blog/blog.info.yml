@@ -3,7 +3,10 @@ type: theme
 description: 'A custom e-blog theme with unique product display layout.'
 core_version_requirement: ^11
 base theme: false
+libraries:
+  -  blog/global-styling
 regions:
   header: 'Header'
+  navigation: 'Navigation'
   content: 'Content'
   footer: 'Footer'
